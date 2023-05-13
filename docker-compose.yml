@@ -1,0 +1,6 @@
+version: "3.5"
+services:
+  nym.public.dappnode.eth:
+    build: .
+    image: "nym.public.dappnode.eth:0.0.1"
+    restart: unless-stopped
