@@ -1,6 +1,19 @@
 version: "3.5"
 services:
-  nym.public.dappnode.eth:
+  nym.dnp.dappnode.eth:
     build: .
-    image: "nym.public.dappnode.eth:0.0.1"
+      context: .
+      args:
+        UPSTREAM_VERSION: v1.1.19
+    image: "nym.dnp.dappnode.eth:0.0.1"
+    ports:
+      - "1789:1790"
+      - "8000"
     restart: unless-stopped
+    volumes:
+      - "data:/nym-mixnode/"
+    environment:
+      - P2P_PORT=8000
+      - EXTRA_FLAGS=
+volumes:
+  data: {}
