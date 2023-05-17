@@ -4,7 +4,7 @@
   "upstreamVersion": "v1.1.19",
   "upstreamRepo": "nymtech/nym/mixnode",
   "shortDescription": "DAppNode package for NYM mixnode",
-  "description": "DAppNode package for NYM mixnode and future functionalities",
+  "description": "Nym provides strong network-level privacy against sophisticated end-to-end attackers, and anonymous transactions using blinded, re-randomizable, decentralized credentials.",
   "chain": "nym",
   "type": "service",
   "author": "Cypherplatxs",
