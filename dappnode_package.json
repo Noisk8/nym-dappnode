@@ -1,12 +1,29 @@
 {
   "name": "nym.public.dappnode.eth",
-  "version": "0.0.1",
-  "description": "Paquete de nym para Dappnode",
+  "version": "0.1.0",
+  "upstreamVersion": "v1.1.19",
+  "upstreamRepo": "nymtech/nym/mixnode",
+  "shortDescription": "DAppNode package for NYM mixnode",
+  "description": "DAppNode package for NYM mixnode and future functionalities",
+  "chain": "nym",
   "type": "service",
   "author": "Cypherplatxs",
-  "categories": ["Developer tools"],
+  "contributors": [
+    "Noisk8 (https://github.com/noisk8)",
+    "Chuy Garcia (https://github.com/chuygarcia92)"
+  ],
+  "categories": ["Privacy"],
   "links": {
-    "homepage": "https://your-project-homepage-or-docs.io"
+    "api": "X"
+    "homepage": "https://nymtech.net/"
+    "documentation": "https://nymtech.net/docs/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Noisk8/nym-dappnode/"
+  },
+  "bugs": {
+    "url": "https://github.com/Noisk8/nym-dappnode/issues"
   },
   "license": "GPL-3.0"
 }
