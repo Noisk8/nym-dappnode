@@ -2,8 +2,8 @@ version: "3.5"
 services:
   nym.dnp.dappnode.eth:
     build: .
-      context: .
-      args:
+    context: .
+    args:
         UPSTREAM_VERSION: v1.1.20
     image: "nym.dnp.dappnode.eth:0.0.1"
     ports:

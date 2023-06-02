@@ -14,8 +14,8 @@
   ],
   "categories": ["Privacy"],
   "links": {
-    "api": "X"
-    "homepage": "https://nymtech.net/"
+    "api": "X",
+    "homepage": "https://nymtech.net/",
     "documentation": "https://nymtech.net/docs/"
   },
   "repository": {
