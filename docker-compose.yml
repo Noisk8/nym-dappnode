@@ -4,7 +4,7 @@ services:
     build: .
       context: .
       args:
-        UPSTREAM_VERSION: v1.1.19
+        UPSTREAM_VERSION: v1.1.20
     image: "nym.dnp.dappnode.eth:0.0.1"
     ports:
       - "1789:1790"
